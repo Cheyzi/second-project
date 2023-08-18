@@ -3,70 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="icon" href="./meta/icon.ico" sizes="any"> 
+    <link rel="icon" href="./meta/icon.svg" type="image/svg+xml"> 
+    <link rel="apple-touch-icon" href="./meta/apple-touch-icon.png"> 
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо?</title>
+    <meta name="description" content="Страница о взгляде на перфекционизм в работе и учёбе. "> 
+
+    <meta property="og:description" content="Страница о взгляде на перфекционизм в работе и учёбе. ">
+    <meta property="og:title" content="Надо сделать идеально"> 
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+    <meta property="og:image" content="./meta/og.png"> 
+    <meta property="twitter:card" content="summary_large_image">
+
+    <title>Надо сделать идеально</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+
   </head>
-  <body>
-    <header class="header">
-      <nav class="header__menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link_active header__link" href="#cover">
-              главная
-            </a>
-          </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="#lots"> посмотреть лоты </a>
-          </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="#about"> об аукционе </a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header__logo">
-        <img class="header__logo-image" src="./images/logo.svg" alt="logo" />
-      </a>
-      <address class="adress">
-        <a class="adress__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="adress__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>
-          наб. Принсенграхт 263-265,<br />
-          Амстердам
-        </p>
-      </address>
-    </header>
-    <div class="main">
-      <section class="cover" id="cover">
-        <div class="overlay"></div>
-        <div class="cover__main">
-          <h1 class="cover__title">
-            <span class="aligned-text">
-              он
-              <span class="letter-spacing-extended">о</span>
-            </span>
-            <span class="aligned-text_center aligned-text">
-              теб
-              <span class="letter-spacing-extended">е</span>
-            </span>
-            <span class="aligned-text_right aligned-text">
-              <span class="letter-spacing-extended">н</span>
-              адо
-            </span>
-          </h1>
-        </div>
-        <div class="cover__description">
-          <h3 class="cover__description-text">
-            Аукцион вещей, в которые никто не верил
-          </h3>
-          <button class="bet-button">сделать ставку</button>
-        </div>
-      </section>
-      <section class="lots" id="lots">
-      </section>
-      <section class="about" id="about"></section>
-    </div>
-    <footer class="footer"></footer>
+  <body class="page">
+    <video class="page__video" muted autoplay loop poster="./meta/poster.png">
+        <source src="./video/cover-video.mp4" type="video/mp4"/>
+    </video>
+    <h1 class="page__title">Надо сделать идеально</h1>
   </body>
 </html>
